@@ -35,7 +35,7 @@ function checkTotal(){
         document.getElementById("sumTotal").style.color = 'green';
         document.getElementById("sumTotal").style.fontWeight = "normal";
     } else {
-        document.getElementById("sumTotal").textContent = "ลองใหม่นะ";
+        document.getElementById("sumTotal").textContent = "ลองอีกครั้ง";
         document.getElementById("sumTotal").style.color = "red"
     }
 }
